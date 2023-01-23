@@ -1,0 +1,19 @@
+DEFINE CLASS JsonData AS Custom
+	tipo_documento = 0
+	establecimiento = 0
+	punto = 0
+	numero = 0
+	serie = ''
+	descripcion = ''
+	observacion = ''
+	fecha = ''
+	tipo_emision = 0
+	tipo_transaccion = 0
+	tipo_impuesto = 0
+	moneda = ''
+	condicion_anticipo = 0
+	condicion_tipo_cambio =0
+	cambio = 0
+	cdc = ''
+	
+ENDDEFINE
