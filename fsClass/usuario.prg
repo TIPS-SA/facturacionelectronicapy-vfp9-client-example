@@ -1,6 +1,6 @@
 DEFINE CLASS Usuario AS Custom
-	documento_tipo = 0
-	documento_numero = ''
-	nombre = ''
-	cargo = ''	
+	documento_tipo = .NULL.
+	documento_numero = .NULL.
+	nombre = .NULL.
+	cargo = .NULL.
 ENDDEFINE

@@ -1,18 +1,18 @@
 SET PROCEDURE TO Cliente, Usuario, Item
 
 DEFINE CLASS de AS Custom
-	tipo_documento = .null.
-	establecimiento = 0
-	punto = 0
-	numero = 0
-	serie = .null.
-	descripcion = .null.
-	observacion = .null.
-	fecha = .null.
+	tipo_documento = .NULL.
+	establecimiento = .NULL.
+	punto = .NULL.
+	numero = .NULL.
+	serie = .NULL.
+	descripcion = .NULL.
+	observacion = .NULL.
+	fecha = .NULL.
 	tipo_emision = .NULL.
-	tipo_transaccion = 0
-	tipo_impuesto = 0
-	moneda = 'PYG'
+	tipo_transaccion = .NULL.
+	tipo_impuesto = .NULL.
+	moneda = .NULL.
 	condicion_anticipo = .NULL.
 	condicion_tipo_cambio = .NULL.
 	cambio = .NULL.
@@ -25,14 +25,20 @@ DEFINE CLASS de AS Custom
 	auto_factura = .NULL.
 	nota_credito_debito = .NULL.
 	remision = .NULL.
+	condicion = .NULL.
+	sector_energia_electrica = .NULL.
+	sector_seguros = .NULL.
+	sector_supermercados = .NULL.
+	sector_adicional = .NULL.
+	transporte = .NULL.
+	complementarios = .NULL.
+	extras = .NULL.
 	
 	DIMENSION items(1)
-	condicion = .NULL.
 	
 	
 	descuento_global = .NULL.
-	anticipo_global = .null.
-	extras = .null.
-	format = .null.
+	anticipo_global = .NULL.
+	format = .NULL.
 	
 ENDDEFINE

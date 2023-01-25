@@ -1,6 +1,6 @@
 DEFINE CLASS factura AS Custom
-	presencia = .null.
-	fechaEnvio = .null.
-	dncp = .null.
+	presencia = .NULL.
+	fechaEnvio = .NULL.
+	dncp = .NULL.
 	
 ENDDEFINE
