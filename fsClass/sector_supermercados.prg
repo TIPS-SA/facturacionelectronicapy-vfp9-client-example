@@ -1,4 +1,4 @@
-DEFINE CLASS sectorsupermercados AS Custom
+DEFINE CLASS sector_supermercados AS Custom
     nombre_cajero = .NULL.
     efectivo = .NULL.
     vuelto = .NULL.

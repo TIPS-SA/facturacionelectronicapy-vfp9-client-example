@@ -1,4 +1,4 @@
-DEFINE CLASS Cliente AS Custom
+DEFINE CLASS cliente AS Custom
 	contribuyente = .NULL.
 	ruc = .NULL.
 	razon_social = .NULL.

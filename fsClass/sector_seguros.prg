@@ -1,4 +1,4 @@
-DEFINE CLASS sectorseguros AS Custom
+DEFINE CLASS sector_seguros AS Custom
     codigo_aseguradora = .NULL.
     codigo_poliza = .NULL.
     numero_poliza = .NULL.

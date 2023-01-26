@@ -1,4 +1,4 @@
-DEFINE CLASS Item AS Custom
+DEFINE CLASS item AS Custom
 	codigo = .NULL.
 	descripcion = .NULL.
 	observacion = .NULL.
@@ -27,6 +27,8 @@ DEFINE CLASS Item AS Custom
 	registro_senave = .NULL.
 	registro_ entidad_comercial = .NULL.
 	nombre_producto = .NULL.
+
+	*Objetos
 	dncp = .NULL.
 	extras = .NULL.
 	

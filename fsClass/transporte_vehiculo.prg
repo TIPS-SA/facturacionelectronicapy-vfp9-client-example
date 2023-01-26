@@ -1,4 +1,4 @@
-DEFINE CLASS trans_vehiculo AS Custom
+DEFINE CLASS transporte_vehiculo AS Custom
     tipo = .NULL.
     marca = .NULL.
     documento_tipo = .NULL.

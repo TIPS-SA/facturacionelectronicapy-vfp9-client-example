@@ -1,4 +1,4 @@
-DEFINE CLASS chofer AS Custom
+DEFINE CLASS transporte_transportista_chofer AS Custom
     documento_numero = .NULL.
     nombre = .NULL.
     direccion = .NULL.

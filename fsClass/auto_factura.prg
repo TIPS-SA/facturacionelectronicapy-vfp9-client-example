@@ -1,4 +1,4 @@
-DEFINE CLASS autofactura AS Custom
+DEFINE CLASS auto_factura AS Custom
     tipo_vendedor = .NULL.
     documento_tipo = .NULL.
     documento_numro = .NULL.
@@ -11,5 +11,6 @@ DEFINE CLASS autofactura AS Custom
     distrito_descripcion = .NULL.
     ciudad = .NULL.
     ciudad_descripcion = .NULL.
+    *Objetos
     ubicacion = .NULL.
 ENDDEFINE

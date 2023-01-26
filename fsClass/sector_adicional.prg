@@ -1,4 +1,4 @@
-DEFINE CLASS sectoradicional AS Custom
+DEFINE CLASS sector_adicional AS Custom
     ciclo = .NULL.
     inicio_ciclo = .NULL.
     fin_ciclo = .NULL.

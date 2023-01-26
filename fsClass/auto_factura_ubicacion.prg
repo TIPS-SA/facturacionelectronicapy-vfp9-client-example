@@ -1,4 +1,4 @@
-DEFINE CLASS af_ubicacion AS Custom
+DEFINE CLASS auto_factura_ubicacion AS Custom
     lugar = .NULL.
     departamento = .NULL.
     departamento_descripcion = .NULL.

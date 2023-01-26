@@ -1,4 +1,4 @@
-DEFINE CLASS infotarjeta AS Custom
+DEFINE CLASS condicion_credito_tarjeta_info AS Custom
     tipo = .NULL.
     tipo_descripcion = .NULL.
     numero = .NULL.

@@ -1,4 +1,4 @@
-DEFINE CLASS sectorautomotor AS Custom  
+DEFINE CLASS sector_automotor AS Custom  
     tipo = .NULL.
     chasis = .NULL.
     color = .NULL.

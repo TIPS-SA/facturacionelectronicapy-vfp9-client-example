@@ -9,6 +9,7 @@ DEFINE CLASS transporte AS Custom
     fin_estimado_traslado = .NULL.
     pais_destino = .NULL.
     pais_destino_nombre = .NULL.
+    *Objetos
     salida = .NULL.
     entrega =.NULL.
     vehiculo = .NULL.

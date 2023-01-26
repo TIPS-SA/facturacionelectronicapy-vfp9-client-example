@@ -1,4 +1,4 @@
-DEFINE CLASS f_dncp as Custom
+DEFINE CLASS factura_dncp as Custom
     modalidad = .NULL.
     entidad = .NULL.
     año = .NULL.

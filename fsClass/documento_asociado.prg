@@ -1,4 +1,4 @@
-DEFINE CLASS docasoc AS Custom
+DEFINE CLASS documento_asociado AS Custom
     formato = .NULL.
     cdc = .NULL.
     tipo_documento_impreso = .NULL.

@@ -1,4 +1,4 @@
-DEFINE CLASS trans_salida AS Custom
+DEFINE CLASS transporte_salida AS Custom
     direccion = .NULL.
     numero_casa = .NULL.
     complemento_direccion1 = .NULL.

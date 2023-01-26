@@ -1,4 +1,4 @@
-DEFINE CLASS trans_transportista AS Custom
+DEFINE CLASS transporte_transportista AS Custom
     contribuyente = .NULL.
     nombre = .NULL.
     ruc  = .NULL.
@@ -8,6 +8,7 @@ DEFINE CLASS trans_transportista AS Custom
     obs = .NULL.
     pais = .NULL.
     pais_descripcion = .NULL.
+    *Objetos
     chofer = .NULL.
     agente = .NULL.
 ENDDEFINE
