@@ -1,38 +1,44 @@
-SET PROCEDURE TO Cliente, Usuario, Item
+SET PROCEDURE TO Cliente, Usuario, Item, factura, auto_factura, nota_credito_debito, remision, sector_energia_electrica, sector_seguros
 
 DEFINE CLASS de AS Custom
-	tipo_documento = .null.
-	establecimiento = 0
-	punto = 0
-	numero = 0
-	serie = .null.
-	descripcion = .null.
-	observacion = .null.
-	fecha = .null.
+	tipo_documento = .NULL.
+	establecimiento = .NULL.
+	punto = .NULL.
+	numero = .NULL.
+	serie = .NULL.
+	descripcion = .NULL.
+	observacion = .NULL.
+	fecha = .NULL.
 	tipo_emision = .NULL.
-	tipo_transaccion = 0
-	tipo_impuesto = 0
-	moneda = 'PYG'
+	tipo_transaccion = .NULL.
+	tipo_impuesto = .NULL.
+	moneda = .NULL.
 	condicion_anticipo = .NULL.
 	condicion_tipo_cambio = .NULL.
 	cambio = .NULL.
 	cdc = .NULL.
+	descuento_global = .NULL.
+	anticipo_global = .NULL.
+	format = .NULL.
 	
 	* Objetos
-	cliente = .NULL.
-	usuario = .NULL.
-	factura = .NULL.
+	cliente = CREATEOBJECT("cliente")
+	usuario = CREATEOBJECT("usuario")
+	factura = CREATEOBJECT("factura")
 	auto_factura = .NULL.
 	nota_credito_debito = .NULL.
 	remision = .NULL.
-	
-	DIMENSION items(0)
 	condicion = .NULL.
+	sector_energia_electrica = .NULL.
+	sector_seguros = .NULL.
+	sector_supermercados = .NULL.
+	sector_adicional = .NULL.
+	transporte = .NULL.
+	complementarios = .NULL.
+	extras = .NULL.
+	
+	DIMENSION items(1)
 	
 	
-	descuento_global = .NULL.
-	anticipo_global = .null.
-	extras = .null.
-	format = .null.
 	
 ENDDEFINE

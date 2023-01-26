@@ -17,10 +17,13 @@ DEFINE CLASS de AS Custom
 	condicion_tipo_cambio = .NULL.
 	cambio = .NULL.
 	cdc = .NULL.
+	descuento_global = .NULL.
+	anticipo_global = .NULL.
+	format = .NULL.
 	
 	* Objetos
-	cliente = .NULL.
-	usuario = .NULL.
+	cliente = CREATEOBJECT("cliente")
+	usuario = CREATEOBJECT("usuario")
 	factura = .NULL.
 	auto_factura = .NULL.
 	nota_credito_debito = .NULL.
@@ -37,8 +40,5 @@ DEFINE CLASS de AS Custom
 	DIMENSION items(1)
 	
 	
-	descuento_global = .NULL.
-	anticipo_global = .NULL.
-	format = .NULL.
 	
 ENDDEFINE
