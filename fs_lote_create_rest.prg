@@ -1,7 +1,7 @@
 **
 ** Ejemplo de llamada a API de FacturaSend desde VisualFoxPro 9.0
 ** 
-** Creacion de varios documentos electrónicos por el método (A)sincrono (lotes)
+** Creacion de varios documentos electrï¿½nicos por el mï¿½todo (A)sincrono (lotes)
 **
 ** https://docs.facturasend.com.py/#creacion-de-varios-des
 **
@@ -91,7 +91,7 @@ oHTTP.OPEN("POST","http://localhost:3002/api/empresa0/lote/create", .f.)
 oHTTP.setRequestHeader("User-Agent", "FacturaSend from VFP 9")
 oHTTP.setRequestHeader("Content-Type", "application/json;charset=utf-8")
            
-lcBasicAuth = "Bearer " + "api_key_9FFC28EB-5376-4392-B757-86E372FBB398"
+lcBasicAuth = "Bearer " + "api_key_9FFC28EB-5376-4392-B757-86E372FBB398a"
 oHTTP.setRequestHeader("Authorization", lcBasicAuth)
 oHTTP.SEND("[" + cData + "]")
 **oHTTP.SEND("[" + cData + ", " + cData1 +  ", " + cData2 + ", " + cDataN + "]")
