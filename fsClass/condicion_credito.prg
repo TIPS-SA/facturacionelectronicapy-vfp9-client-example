@@ -3,6 +3,6 @@ DEFINE CLASS condicion_credito AS Custom
     plazo = .NULL.
     cuotas = .NULL.
     *Objetos
-    DEFINE info_cuotas(1)
+    DIMENSION info_cuotas(1)
 
 ENDDEFINE

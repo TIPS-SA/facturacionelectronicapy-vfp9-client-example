@@ -22,8 +22,8 @@ DEFINE CLASS de AS Custom
 	format = .NULL.
 	
 	* Objetos
-	cliente = CREATEOBJECT("cliente")
-	usuario = CREATEOBJECT("usuario")
+	cliente = .NULL.
+	usuario = .NULL.
 	factura = .NULL.
 	auto_factura = .NULL.
 	nota_credito_debito = .NULL.
@@ -36,6 +36,7 @@ DEFINE CLASS de AS Custom
 	transporte = .NULL.
 	complementarios = .NULL.
 	extras = .NULL.
+	documento_asociado = .NULL.
 	
 	DIMENSION items(1)
 	

@@ -1,6 +1,0 @@
-DEFINE CLASS condicion AS Custom
-	tipo = .null.
-	DIMENSION entregas
-	credito = .null.
-	
-ENDDEFINE

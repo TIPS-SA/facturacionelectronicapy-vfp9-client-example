@@ -5,8 +5,8 @@ DEFINE CLASS transporte AS Custom
     condicion_negociacion = .NULL.
     numero_manifiesto = .NULL.
     numero_despacho_importacion = .NULL.
-    inicio_estimado_traslado = .NULL.
-    fin_estimado_traslado = .NULL.
+    inicio_estimado_translado = .NULL.
+    fin_estimado_translado = .NULL.
     pais_destino = .NULL.
     pais_destino_nombre = .NULL.
     *Objetos

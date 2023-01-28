@@ -1,7 +1,7 @@
 DEFINE CLASS auto_factura AS Custom
     tipo_vendedor = .NULL.
     documento_tipo = .NULL.
-    documento_numro = .NULL.
+    documento_numero = .NULL.
     nombre = .NULL.
     direccion = .NULL.
     numero_casa = .NULL.

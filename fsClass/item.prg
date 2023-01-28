@@ -25,7 +25,7 @@ DEFINE CLASS item AS Custom
 	numero_pedido = .NULL.
 	numero_seguimiento = .NULL.
 	registro_senave = .NULL.
-	registro_ entidad_comercial = .NULL.
+	registro_entidad_comercial = .NULL.
 	nombre_producto = .NULL.
 
 	*Objetos
