@@ -31,7 +31,7 @@ En la Ubicación raiz encontrará varios ejemplos ya listos para ser consumidos.
 Envia un Documento Electrónico por el método Sincrono.
 
 
-TypeScript:
+Visual FoxPro (.prg) Program:
 ``` 
 
 ** Importar Libreria de Clases
@@ -134,15 +134,12 @@ IF ( ! vfpJsonObject.success)
 ENDIF  
 ```
 
-
-
-
-## Creación de un DE
+## Creación de varios DEs (Envio por lote)
 Envia un Documento Electrónico por el método Asincrono.
 
 Es el mismo proceso que el anterior, con la diferencia que el envio a FacturaSend se realiza en formato de array y puede ser enviado hasta 50 Documentos al mismo tiempo.
 
-TypeScript:
+Visual FoxPro (.prg) Program:
 ```
 SET PROCEDURE TO .\fsClass\de, .\fsClass\cliente, .\fsClass\usuario, .\fsClass\factura, .\fsClass\item, .\fsClass\condicion, .\fsClass\entrega, .\nfJson\nfJsonCreate, .\nfJson\nfJsonRead
 
@@ -157,7 +154,7 @@ data.fecha = '2023-01-23T10:00:00'
 
 data.tipo_impuesto = 1
 
-**Cliente
+** Cliente
 data.cliente = CREATEOBJECT("cliente")
 data.cliente.contribuyente = .t.
 data.cliente.tipo_contribuyente = 1
